@@ -1,0 +1,110 @@
+body{
+    background-image: url(./image/shara\ desert.jpg);
+}
+
+.img{
+    margin-left: 70px;
+    width: 61px;
+    position: relative;
+    top: 20px;
+}
+.nav{
+    float: right;
+}
+
+.a1{ 
+    text-decoration: none;
+    color: white; 
+    padding: 10px;
+}
+#img{
+    width: 30px;
+}
+ 
+.div1{
+      float: left; 
+     margin-left: 70px;
+     margin-top: 150px;
+    width: 500px;
+}
+     
+span{
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.p{
+    color: white;
+}
+.button{
+    background-color: white;
+    border-radius: 20px;
+    width: 180px;
+    height: 37px;
+    border-color: white;
+}
+.grid{ position: relative;
+    top: 50px;
+    left: 50px;
+     display: grid;
+      float: left;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin: 10px;
+    color: white;
+}
+.card1{
+    background-size: cover;
+    padding-left: 10px;
+    width: 235px;
+    height: 265px;
+    border-radius: 10px;
+    background-image: url(./image/pic-1.png);
+
+}
+.card1:hover{
+transform: translateY(-5px);
+}
+.card2{ 
+    background-size: cover;
+    padding-left: 10px;
+    width: 235px;
+    height: 265px;
+    border-radius: 10px;
+    background-image: url(./image/pic-2.png);
+}
+.card2:hover{
+    transform: translateY(-5px);
+    }
+.card3{
+    background-size: cover;
+    padding-left: 10px;
+    width: 235px;
+    height: 265px;
+    border-radius: 10px;
+    background-image: url(./image/pic-3.png);
+}
+.card3:hover{
+    transform: translateY(-5px);
+    }
+.card4{
+    background-size: cover;
+    padding-left: 10px;
+    width: 235px;
+    height: 265px;
+    border-radius: 10px;
+    background-image: url(./image/pic-4.png);
+}
+.card4:hover{
+    transform: translateY(-5px);
+    }
+@media (max-width:768px) {
+    .card1{width: 100%;}
+    .card2{width: 100%;}
+    .card3{width: 100%;}
+    .card4{width: 100%;}
+    .grid{grid-template-columns: 100%;}
+   
+    
+}
