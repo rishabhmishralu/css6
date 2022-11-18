@@ -99,7 +99,7 @@ transform: translateY(-5px);
 .card4:hover{
     transform: translateY(-5px);
     }
-@media (max-width:768px) {
+@media screen and (max-width:856px) {
     .card1{width: 100%;}
     .card2{width: 100%;}
     .card3{width: 100%;}
